@@ -1,0 +1,50 @@
+[
+    {
+        "material": "Metal",
+        "isRecyclable": true,
+        "bin": "Recycling",
+        "examples": "Cans, foil (clean), scrap metal.",
+        "exceptions": "Aerosol cans, paint cans, contaminated items.",
+        "tips": "Rinse out food and drink containers."
+    },
+    {
+        "material": "Plastic",
+        "isRecyclable": true,
+        "bin": "Recycling",
+        "examples": "Bottles, jugs, tubs, lids.",
+        "exceptions": "Black plastic, plastic bags, polystyrene (Styrofoam), multi-layer packaging (e.g., chip bags).",
+        "tips": "Look for recycling symbols, as certain types of plastic can't be recycled."
+    },
+    {
+        "material": "Organic",
+        "isRecyclable": false,
+        "bin": "Compost (if available) or trash",
+        "examples": "Food scraps, yard waste, coffee grounds, tea bags.",
+        "exceptions": "None",
+        "tips": "Never compost meat, dairy, oils (these can contaminate compost)."
+    },
+    {
+        "material": "E-waste",
+        "isRecyclable": true,
+        "bin": "Designated e-waste drop-off",
+        "examples": "Computers, phones, TVs, batteries, chargers, etc.",
+        "exceptions": "None",
+        "tips": "Do not dispose of them in regular trash or recycling."
+    },
+    {
+        "material": "Paper",
+        "isRecyclable": true,
+        "bin": "Recycling",
+        "examples": "Newspapers, magazines, cardboard, paperboard (e.g., cereal boxes).",
+        "exceptions": "Waxed paper, soiled paper, tissues, napkins.",
+        "tips": "Flatten cardboard boxes."
+    },
+    {
+        "material": "Glass",
+        "isRecyclable": true,
+        "bin": "Recycling",
+        "examples": "Bottles, jars.",
+        "exceptions": "Broken glass, light bulbs, mirrors, window glass, ceramics.",
+        "tips": "Rinse out food and drink containers."
+    }
+]

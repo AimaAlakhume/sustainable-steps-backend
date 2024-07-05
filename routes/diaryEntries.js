@@ -6,8 +6,16 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     const fileData = JSON.parse(fs.readFileSync('./data/diary-entries.json'));
-    res.status(200).json(fileData);
-})
+
+    const dateFilter = req.query.date;
+
+    if (dateFilter) {
+        const filteredEntries = fileData.filter(entry => entry.date === dateFilter);
+        res.status(200).json(filteredEntries);
+    } else {
+        res.status(200).json(fileData);
+    }
+});
 
 router.get('/:diaryEntryId', (req, res) => {
     const { diaryEntryId } = req.params;
@@ -18,7 +26,7 @@ router.get('/:diaryEntryId', (req, res) => {
     } else {
         res.status(404).json({ error: 'Requested entry does not exist.' });
     }
-})
+});
 
 const formatDate = (date) => {
     const year = date.getFullYear();
@@ -32,11 +40,11 @@ router.post('/', (req, res) => {
     const fileData = JSON.parse(fs.readFileSync('./data/diary-entries.json'));
     const newDiaryEntry = {
         id: uuidv4(),
-        date: formatDate(new Date()),
-        item: '',
-        category: '',
-        quantity: '',
-        action_taken: ''
+        item: req.body.item,
+        category: req.body.category,
+        quantity: req.body.quantity,
+        action_taken: req.body.action_taken,
+        date: formatDate(new Date())
     };
     const newDiaryEntryData = [...fileData, newDiaryEntry];
     fs.writeFileSync('./data/diary-entries.json', JSON.stringify(newDiaryEntryData));
