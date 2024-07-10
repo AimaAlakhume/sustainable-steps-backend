@@ -8,24 +8,22 @@ router.get('/', (req, res) => {
     const fileData = JSON.parse(fs.readFileSync('./data/diary-entries.json'));
 
     const dateFilter = req.query.date;
+    const year = parseInt(req.query.year);
+    const month = parseInt(req.query.month) - 1;
+
+    let filteredEntries = fileData;
 
     if (dateFilter) {
-        const filteredEntries = fileData.filter(entry => entry.date === dateFilter);
-        res.status(200).json(filteredEntries);
-    } else {
-        res.status(200).json(fileData);
+        filteredEntries = filteredEntries.filter(entry => entry.date === dateFilter);
     }
-});
 
-router.get('/:diaryEntryId', (req, res) => {
-    const { diaryEntryId } = req.params;
-    const fileData = JSON.parse(fs.readFileSync('./data/diary-entries.json'));
-    const selectedDiaryEntry = fileData.find(entry => entry.id === diaryEntryId);
-    if (selectedDiaryEntry) {
-        res.status(200).json(selectedDiaryEntry);
-    } else {
-        res.status(404).json({ error: 'Requested entry does not exist.' });
+    if (year && !isNaN(month)) {
+        filteredEntries = filteredEntries.filter(entry => {
+            const [entryYear, entryMonth] = entry.date.split('-').map(Number);
+        });
     }
+
+    res.status(200).json(filteredEntries);
 });
 
 const formatDate = (date) => {

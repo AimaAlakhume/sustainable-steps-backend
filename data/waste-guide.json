@@ -1,7 +1,7 @@
 [
     {
         "material": "Metal",
-        "isRecyclable": true,
+        "isRecyclable": "Yes",
         "bin": "Recycling",
         "examples": "Cans, foil (clean), scrap metal.",
         "exceptions": "Aerosol cans, paint cans, contaminated items.",
@@ -9,7 +9,7 @@
     },
     {
         "material": "Plastic",
-        "isRecyclable": true,
+        "isRecyclable": "Yes",
         "bin": "Recycling",
         "examples": "Bottles, jugs, tubs, lids.",
         "exceptions": "Black plastic, plastic bags, polystyrene (Styrofoam), multi-layer packaging (e.g., chip bags).",
@@ -17,7 +17,7 @@
     },
     {
         "material": "Organic",
-        "isRecyclable": false,
+        "isRecyclable": "No",
         "bin": "Compost (if available) or trash",
         "examples": "Food scraps, yard waste, coffee grounds, tea bags.",
         "exceptions": "None",
@@ -25,7 +25,7 @@
     },
     {
         "material": "E-waste",
-        "isRecyclable": true,
+        "isRecyclable": "Yes",
         "bin": "Designated e-waste drop-off",
         "examples": "Computers, phones, TVs, batteries, chargers, etc.",
         "exceptions": "None",
@@ -33,7 +33,7 @@
     },
     {
         "material": "Paper",
-        "isRecyclable": true,
+        "isRecyclable": "Yes",
         "bin": "Recycling",
         "examples": "Newspapers, magazines, cardboard, paperboard (e.g., cereal boxes).",
         "exceptions": "Waxed paper, soiled paper, tissues, napkins.",
@@ -41,10 +41,18 @@
     },
     {
         "material": "Glass",
-        "isRecyclable": true,
+        "isRecyclable": "Yes",
         "bin": "Recycling",
         "examples": "Bottles, jars.",
         "exceptions": "Broken glass, light bulbs, mirrors, window glass, ceramics.",
         "tips": "Rinse out food and drink containers."
+    },
+    {
+        "material": "Textiles",
+        "isRecyclable": "Sometimes", 
+        "bin": "Donation (if in good condition), textile recycling, or trash",
+        "examples": "Clothing, towels, bedding, curtains.",
+        "exceptions": "Heavily soiled or wet items, textiles mixed with other materials (e.g., zippers, buttons).",
+        "tips": "Check for local textile recycling programs, some charities accept used textiles."
     }
 ]
