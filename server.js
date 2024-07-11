@@ -3,7 +3,7 @@ import diaryEntryRoutes from './routes/diaryEntries.js';
 import wasteGuideRoutes from './routes/wasteGuide.js';
 import userGoalRoutes from './routes/userGoals.js';
 import plantShedRoutes from './routes/plantShed.js';
-import locationRoutes from './routes/locations.js';
+import locationsRoutes from './routes/locations.js';
 import 'dotenv/config';
 import cors from 'cors';
 
@@ -17,7 +17,7 @@ app.use('/entries', diaryEntryRoutes);
 app.use('/guide', wasteGuideRoutes);
 app.use('/goals', userGoalRoutes);
 app.use('/shed', plantShedRoutes);
-app.use('/locations', locationRoutes);
+app.use('/locations', locationsRoutes);
 
 const PORT = process.env.PORT || 8080;
 

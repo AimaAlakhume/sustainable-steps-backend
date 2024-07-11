@@ -1,23 +1,33 @@
 [
     {
-        "id": "6cbh4149-9t31-u64a-811d-86949904adad",
-        "goal": "Follow up with ConEdison about solar panel installations",
-        "isComplete": false
-    },
-    {
         "id": "4cb41a39-2d31-464a-811d-8694884a690d",
         "goal": "Recycle all the soda cans in my house",
         "isComplete": false
     },
     {
+        "id": "a1b2c3d4-e5f6g7h8-i9j0k1l2-m3n4o5p6",
+        "goal": "Replace traditional lightbulbs with LEDs",
+        "isComplete": "deprecated"
+    },
+    {
+        "id": "d8e7f6g5-h4i3j2k1-l0m9n8b7-v6c5x4z3",
+        "goal": "Take shorter showers by 5 minutes",
+        "isComplete": "deprecated"
+    },
+    {
         "id": "q7w8e9r0-t1y2u3i4-o5p6a7s8-d9f0g1h2",
-        "goal": "Donate unwanted clothes instead of throwing them away",
+        "goal": "Go through closet and donate old clothes",
         "isComplete": false
     },
     {
         "id": "u9i8o7p6-a5s4d3f2-g1h2j3k4-l5m6n7b8",
-        "goal": "Fix a leaky faucet to conserve water",
+        "goal": "Fix leaky kitchen faucet to conserve water",
         "isComplete": false
+    },
+    {
+        "id": "m7n6b5v4-c3x2z1y0-9q8w7e6r-5t4u3i2o",
+        "goal": "Follow up with ConEdison about solar panel installations",
+        "isComplete": "deprecated"
     },
     {
         "id": "o1p2a3s4-d5f6g7h8-j9k0l1m2-n3b4v5c6",
@@ -27,11 +37,11 @@
     {
         "id": "x7z8c9v0-b1n2m3j4-k5l6q7w8-e9r0t1y2",
         "goal": "Print double-sided to save paper",
-        "isComplete": false
+        "isComplete": "deprecated"
     },
     {
         "id": "u3i4o5p6-a7s8d9f0-g1h2j3k4-l5m6n7b8",
-        "goal": "Bring reusable bags when shopping",
+        "goal": "Bring reusable bag when grocery shopping",
         "isComplete": false
     }
 ]

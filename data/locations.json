@@ -1,0 +1,198 @@
+[
+    {
+        "location": "RTS - NYC Waste Management",
+        "address": "115 Broadway 14th floor, New York, NY 10006",
+        "lat": "40.70886410582514",
+        "lng": "-74.0113041609769",
+        "type": "waste management"
+    },
+    {
+        "location": "City Recycling",
+        "address": "167 Anthony St, Brooklyn, NY 11222",
+        "lat": "40.725220481986796",
+        "lng": "-73.93139372274598",
+        "type": "waste management"
+    },
+    {
+        "location": "Allocco Recycling",
+        "address": "594 Scholes St, Brooklyn, NY 11237",
+        "lat": "40.712161614688256",
+        "lng": "-73.92351644241866",
+        "type": "waste management"
+    },
+    {
+        "location": "Point Recycling",
+        "address": "120 Hausman St, Brooklyn, NY 11222",
+        "lat": "40.72786591433196",
+        "lng": "-73.93905221543372",
+        "type": "waste management"
+    },
+    {
+        "location": "NYC Compost Project Hosted by Big Reuse",
+        "address": "Queens Plaza S, Queens, NY 11101",
+        "lat": "40.7544273997466",
+        "lng": "-73.94872972707527",
+        "type": "waste management"
+    },
+    {
+        "location": "Goodwill NYNJ Store & Donation Center",
+        "address": "7 W 14th St, New York, NY 10011",
+        "lat": "40.736618141781264",
+        "lng": "-73.9940411712545",
+        "type": "waste management"
+    },
+    {
+        "location": "Hoboken City Recycling Center",
+        "address": "256 Observer Hwy, Hoboken, NJ 07030",
+        "lat": "40.7427375711808",
+        "lng": "-74.03292471354011",
+        "type": "waste management"
+    },
+    {
+        "location": "Hoboken City Recycling Center",
+        "address": "256 Observer Hwy, Hoboken, NJ 07030",
+        "lat": "40.7427375711808",
+        "lng": "-74.03292471354011",
+        "type": "waste management"
+    },
+    {
+        "location": "U.S. Recycling Inc.",
+        "address": "141 6th St, Brooklyn, NY 11215",
+        "lat": "40.67804649085116",
+        "lng": "-73.99271365423265",
+        "type": "waste management"
+    },
+    {
+        "location": "Cooper Tank Recycling",
+        "address": "222 Maspeth Ave, Brooklyn, NY 11211",
+        "lat": "40.71955135643076",
+        "lng": "-73.9331616966051",
+        "type": "waste management"
+    },
+    {
+        "location": "Environment New York Research & Policy Center",
+        "address": "81 Prospect St, Brooklyn, NY 11201",
+        "lat": "40.70106094835897",
+        "lng": "-73.98752483351318",
+        "type": "politics"
+    },
+    {
+        "location": "NYC Environmental Protection",
+        "address": "350 Flushing Ave, Brooklyn, NY 11205",
+        "lat": "40.70183097433364",
+        "lng": "-73.96076114565878",
+        "type": "politics"
+    },
+    {
+        "location": "NYC Environmental Protection",
+        "address": "184 Avenue D, New York, NY 10009",
+        "lat": "40.72885940574072",
+        "lng": "-73.97378052287615",
+        "type": "politics"
+    },
+    {
+        "location": "N Y City Department-Environmental",
+        "address": "900 Main St, New York, NY 10044",
+        "lat": "40.77635027023634",
+        "lng": "-73.94233212559351",
+        "type": "politics"
+    },
+    {
+        "location": "EPA Region 2",
+        "address": "Ted Weiss Federal Building, 290 Broadway, New York, NY 10007",
+        "lat": "40.71541081505666",
+        "lng": "-74.00467863811008",
+        "type": "politics"
+    },
+    {
+        "location": "US Env Protection Agency",
+        "address": "90 Church St, New York, NY 10007",
+        "lat": "40.71376599682023",
+        "lng": "-74.01048222201094",
+        "type": "politics"
+    },
+    {
+        "location": "End Climate Silence",
+        "address": "302A W 12th St Suite 198, New York, NY 10014",
+        "lat": "40.741933370485505",
+        "lng": "-74.00430708014387",
+        "type": "politics"
+    },
+    {
+        "location": "Environment Action Association",
+        "address": "Universal Building, 16 W 32nd St, New York, NY 10001",
+        "lat": "40.75091151408249",
+        "lng": "-73.98559924821893",
+        "type": "politics"
+    },
+    {
+        "location": "Interfaith Summit on Climate Change",
+        "address": "777 United Nations Plaza, New York, NY 10017",
+        "lat": "40.753713190587014",
+        "lng": "-73.96981943245862",
+        "type": "politics"
+    },
+    {
+        "location": "Sustainable Learning Inc.",
+        "address": "275 Park Ave Suite A, Brooklyn, NY 11205",
+        "lat": "40.6988284602752",
+        "lng": "-73.96762130000175",
+        "type": "education"
+    },
+    {
+        "location": "Environmental Education Center",
+        "address": "19 Washington St, Brooklyn, NY 11201",
+        "lat": "40.70736028999881",
+        "lng": "-73.98970143043513",
+        "type": "education"
+    },
+    {
+        "location": "Institute for Environmental & Regional Studies",
+        "address": "41 Park Row 7th Floor, New York, NY 10038",
+        "lat": "40.714126602107946",
+        "lng": "-74.00515095451574",
+        "type": "education"
+    },
+    {
+        "location": "Urban Green Council",
+        "address": "60 Broad St 24th Floor #1516, New York, NY 10004",
+        "lat": "40.70753934588687",
+        "lng": "-74.01195936791649",
+        "type": "education"
+    },
+    {
+        "location": "Urban Assembly School for Green Careers",
+        "address": "145 W 84th St, New York, NY 10024",
+        "lat": "40.79288227672976",
+        "lng": "-73.97337869424621",
+        "type": "education"
+    },
+    {
+        "location": "Earth Institute Center for Environmental Sustainability",
+        "address": "Schermerhorn Extension 10th Floor, Columbia University, 1200 Amsterdam Ave, New York, NY 10027",
+        "lat": "40.81143815219569",
+        "lng": "-73.95857217582497",
+        "type": "education"
+    },
+    {
+        "location": "GBRI",
+        "address": "1632 1st Ave. #20278, New York, NY 10128",
+        "lat": "40.78317788638153",
+        "lng": "-73.94861665994124",
+        "type": "education"
+    },
+    {
+        "location": "Shift Group",
+        "address": "904 Union St, Brooklyn, NY 11215",
+        "lat": "40.68346117918722",
+        "lng": "-73.97222666394084",
+        "type": "education"
+    },
+    {
+        "location": "Environmental Education Associates",
+        "address": "76 Beaver St 15th floor, New York, NY 10005",
+        "lat": "40.710167545275276",
+        "lng": "-74.00828106264031",
+        "type": "education"
+    }
+]
